@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Moss & Matcha — a little calm in every cup. Ceremonial-grade matcha, sourced with care." />
+  <title>Moss & Matcha 🍵 A little calm in every cup</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav-logo">🍵 Moss &amp; Matcha</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="float-accent accent-1">🌿</div>
+    <div class="float-accent accent-2">✨</div>
+    <div class="float-accent accent-3">🍃</div>
+
+    <div class="hero-content fade-in">
+      <div class="hero-cup">
+        <div class="steam"><span></span><span></span><span></span></div>
+        <div class="cup-emoji">🍵</div>
+      </div>
+
+      <p class="hero-kicker">est. slow mornings</p>
+      <h1 class="hero-title">Moss &amp; Matcha</h1>
+      <p class="hero-tagline">A little calm in every cup 🍵</p>
+      <p class="hero-sub">Ceremonial-grade matcha, sourced with care.</p>
+      <a href="#menu" class="btn btn-primary">Explore the Menu</a>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section about" id="about">
+    <div class="container fade-in">
+      <p class="section-kicker">our story</p>
+      <h2 class="section-title">Grown slowly, whisked gently</h2>
+      <div class="about-card">
+        <p>
+          Moss &amp; Matcha began in a tiny kitchen with a single bamboo whisk and a
+          big love for slow mornings. Our leaves are <strong>hand-picked</strong> from
+          a small family farm in Uji, Japan, then stone-ground in
+          <strong>small batches</strong> so every tin arrives fresh and vivid green.
+        </p>
+        <p>
+          We believe matcha isn't a rush — it's a ritual. A warm bowl, a quiet
+          moment, and the softest start to your day.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MENU / PRODUCTS ================= -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <p class="section-kicker fade-in">the menu</p>
+      <h2 class="section-title fade-in">Little tins of calm 🍵</h2>
+
+      <div class="menu-grid">
+
+        <!-- Product card 1 -->
+        <article class="product-card fade-in">
+          <span class="product-tag">Bestseller</span>
+          <img src="images/matcha.jpg" alt="Ceremonial Matcha">
+          <h3 class="product-name">Ceremonial Matcha</h3>
+          <p class="product-desc">Stone-ground first-harvest leaves. Smooth, sweet, and beautifully green.</p>
+          <div class="product-footer">
+            <span class="product-price">$32</span>
+            <button class="btn btn-small">Add to cart</button>
+          </div>
+
+          <div class="card-details">
+            <h4>Ceremonial Matcha 🍵</h4>
+            <p><strong>Origin:</strong> Uji, Japan</p>
+            <p><strong>How it's made:</strong> Shade-grown tea leaves are steamed, dried, and slowly stone-ground into a fine powder.</p>
+            <p><strong>Taste:</strong> Grassy, sweet, umami-rich.</p>
+          </div>
+        </article>
+
+        <!-- Product card 2 -->
+        <article class="product-card fade-in">
+          <span class="product-tag tag-new">New</span>
+          <img src="images/matchalatte.jpg" alt="Matcha Latte Mix">
+          <h3 class="product-name">Matcha Latte Mix</h3>
+          <p class="product-desc">Our ceremonial blend with a touch of oat sweetness — just add warm milk.</p>
+          <div class="product-footer">
+            <span class="product-price">$24</span>
+            <button class="btn btn-small">Add to cart</button>
+          </div>
+
+          <div class="card-details">
+            <h4>Matcha Latte 🥛</h4>
+            <p><strong>Matcha:</strong> Ceremonial-grade, stone-ground in Uji, Japan.</p>
+            <p><strong>Milk:</strong> Oat milk base — creamy, dairy-free, lightly sweetened.</p>
+            <p><strong>How it's made:</strong> Whisk matcha with warm water, then pour over steamed oat milk.</p>
+          </div>
+        </article>
+
+        <!-- Product card 3 -->
+        <article class="product-card fade-in">
+          <span class="product-tag tag-limited">Limited</span>
+          <img src="images/product3.jpg" alt="Hojicha Blend">
+          <h3 class="product-name">Hojicha Blend</h3>
+          <p class="product-desc">Roasted green tea with toasty, caramel notes. Cozy in a cup, day or night.</p>
+          <div class="product-footer">
+            <span class="product-price">$22</span>
+            <button class="btn btn-small">Add to cart</button>
+          </div>
+
+          <div class="card-details">
+            <h4>Hojicha 🌾</h4>
+            <p><strong>Origin:</strong> Kyoto, Japan</p>
+            <p><strong>How it's made:</strong> Green tea leaves are roasted over charcoal, turning them warm brown with a toasty aroma.</p>
+            <p><strong>Taste:</strong> Nutty, caramel, low caffeine.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <p class="section-kicker fade-in">little moments</p>
+      <h2 class="section-title fade-in">From our café corner ✨</h2>
+
+     <div class="gallery-grid">
+
+  <div class="gallery-item fade-in">
+    <img src="images/morningwhisk.jpg" alt="Morning whisk">
+    <p>morning whisk</p>
+  </div>
+
+  <div class="gallery-item fade-in">
+    <img src="images/matchal.jpg" alt="Fresh matcha powder and leaves">
+    <p>fresh matcha</p>
+  </div>
+
+  <div class="gallery-item fade-in">
+    <img src="images/art.jpg" alt="Matcha latte art">
+    <p>latte art</p>
+  </div>
+
+  <div class="gallery-item fade-in">
+    <img src="images/corner.jpg" alt="Cozy café corner">
+    <p>café corner</p>
+  </div>
+
+  <div class="gallery-item fade-in">
+    <img src="images/sweet.jpg" alt="Matcha pastry">
+    <p>sweet pairing</p>
+  </div>
+
+  <div class="gallery-item fade-in">
+    <img src="images/hojihor.jpg" alt="Hojicha powder on a spoon">
+    <p>hojicha hour</p>
+  </div>
+
+</div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact" id="contact">
+    <div class="container fade-in">
+      <p class="section-kicker">say hello</p>
+      <h2 class="section-title">Come by for a cup 💌</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-line">📮 <a href="mailto:hello@mossandmatcha.com">hello@mossandmatcha.com</a></p>
+          <p class="contact-line">📸 <a href="https://instagram.com" target="_blank" rel="noopener">@mossandmatcha</a></p>
+          <p class="contact-line">🕰️ Open daily, 8am – 4pm</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your perfect morning…" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="formNote" hidden>Thank you! We'll reply soon</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Made with 🍵 and a lot of patience.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
