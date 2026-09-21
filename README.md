@@ -58,7 +58,7 @@ images/
 
 ## Author
 
-**Safi Khan**
+**Safia Khan**
 GitHub: [@safiakhan43](https://github.com/safiakhan43)
 
 ---
